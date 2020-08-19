@@ -1,0 +1,31 @@
+{
+  "name": "sansou_automation",
+  "version": "1.0.0",
+  "description": "java,node.js,automacao,test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/selenium-cucumber-js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReghianneSanSou/ProjectSanSou.git"
+  },
+  "keywords": [
+    "java",
+    "node.js",
+    "automacao",
+    "test"
+  ],
+  "author": "Regiane SanSou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReghianneSanSou/ProjectSanSou/issues"
+  },
+  "homepage": "https://github.com/ReghianneSanSou/ProjectSanSou#readme",
+  "dependencies": {
+    "cucumber": "^6.0.5"
+  },
+  "devDependencies": {
+    "selenium-cucumber-js": "^1.7.1"
+  }
+}
